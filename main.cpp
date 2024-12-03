@@ -14,8 +14,8 @@ int main(void) {
 
     model.materials[0].maps[MATERIAL_MAP_ALBEDO].texture = texture;
 
-    // Load shaders
-    Shader shader = LoadShader("dirtobject.vs", "dirtobject.fs");
+    // Load shaderswa
+    Shader shader = LoadShader("Matcap.vs", "Matcap.fs");
 
     // Get uniform locations
     int mvpLoc = GetShaderLocation(shader, "mvp");
